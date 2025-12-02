@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Triagem - PROESP</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<h1>Triagem</h1>
+
+<form action="antropomeria.html">
+
+  <fieldset>
+    <legend>Identificação</legend>
+
+    <label>Nome do aluno</label>
+    <input type="text" required>
+
+    <label>Idade</label>
+    <input type="number" min="6" max="20" required>
+
+    <label>Sexo</label>
+    <select required>
+      <option value="">Selecione</option>
+      <option>Masculino</option>
+      <option>Feminino</option>
+    </select>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Condição de Saúde</legend>
+
+    <label>
+      <input type="checkbox">
+      Apto para atividade física
+    </label>
+
+  </fieldset>
+
+  <button type="submit">Próximo</button>
+
+</form>
+
+</body>
+</html>
